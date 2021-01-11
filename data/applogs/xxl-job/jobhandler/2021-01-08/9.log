@@ -1,0 +1,13 @@
+2021-01-08 16:43:09 [com.xxl.job.core.thread.JobThread#run]-[124]-[Thread-42] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2021-01-08 16:43:09 [com.example.rabittmqdemo.mq.MessageReSendJob#execute]-[67]-[Thread-42] 开始扫描需要进行重试投递的消息
+2021-01-08 16:44:36 [com.example.rabittmqdemo.mq.MessageReSendJob#execute]-[70]-[Thread-42] 扫描需要进行重试投递的消息任务结束，耗时[87446]ms
+2021-01-08 16:44:36 [com.xxl.job.core.thread.JobThread#run]-[164]-[Thread-42] <br>----------- xxl-job job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=200, msg=null, content=null]
+2021-01-08 16:44:37 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[190]-[xxl-job, executor TriggerCallbackThread] <br>----------- xxl-job job callback finish.
+2021-01-08 16:44:41 [com.xxl.job.core.thread.JobThread#run]-[175]-[Thread-42] <br>----------- JobThread toStop, stopReason:web container destroy and kill the job.
+2021-01-08 16:44:41 [com.xxl.job.core.thread.JobThread#run]-[183]-[Thread-42] <br>----------- JobThread Exception:java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.xxl.job.core.thread.JobThread.run(JobThread.java:112)
+<br>----------- xxl-job job execute end(error) -----------
+2021-01-08 16:44:41 [com.example.rabittmqdemo.mq.MessageReSendJob#jobHandlerDestroy]-[135]-[Thread-42] after job execute...

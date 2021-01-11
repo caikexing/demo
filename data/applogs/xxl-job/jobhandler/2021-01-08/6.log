@@ -1,0 +1,16 @@
+2021-01-08 16:37:41 [com.xxl.job.core.thread.JobThread#run]-[124]-[Thread-47] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2021-01-08 16:37:41 [com.example.rabittmqdemo.mq.demoJob#execute]-[22]-[Thread-47] XXL-JOB, Hello World.
+2021-01-08 16:37:41 [com.example.rabittmqdemo.mq.demoJob#execute]-[26]-[Thread-47] beat at:0
+2021-01-08 16:37:43 [com.example.rabittmqdemo.mq.demoJob#execute]-[26]-[Thread-47] beat at:1
+2021-01-08 16:37:45 [com.example.rabittmqdemo.mq.demoJob#execute]-[26]-[Thread-47] beat at:2
+2021-01-08 16:37:47 [com.example.rabittmqdemo.mq.demoJob#execute]-[26]-[Thread-47] beat at:3
+2021-01-08 16:37:49 [com.example.rabittmqdemo.mq.demoJob#execute]-[26]-[Thread-47] beat at:4
+2021-01-08 16:37:51 [com.xxl.job.core.thread.JobThread#run]-[164]-[Thread-47] <br>----------- xxl-job job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=200, msg=null, content=null]
+2021-01-08 16:37:52 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[190]-[xxl-job, executor TriggerCallbackThread] <br>----------- xxl-job job callback finish.
+2021-01-08 16:39:18 [com.xxl.job.core.thread.JobThread#run]-[175]-[Thread-47] <br>----------- JobThread toStop, stopReason:change jobhandler or glue type, and terminate the old job thread.
+2021-01-08 16:39:18 [com.xxl.job.core.thread.JobThread#run]-[183]-[Thread-47] <br>----------- JobThread Exception:java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.xxl.job.core.thread.JobThread.run(JobThread.java:112)
+<br>----------- xxl-job job execute end(error) -----------

@@ -1,0 +1,2 @@
+2021-01-08 17:47:14 [com.xxl.job.core.thread.JobThread#run]-[124]-[Thread-39] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2021-01-08 17:47:14 [com.example.rabittmqdemo.mq.MessageReSendJob#execute]-[67]-[Thread-39] 开始扫描需要进行重试投递的消息

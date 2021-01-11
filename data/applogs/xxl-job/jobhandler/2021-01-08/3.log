@@ -1,0 +1,9 @@
+2021-01-08 16:34:18 [com.xxl.job.core.thread.JobThread#run]-[124]-[Thread-46] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2021-01-08 16:34:18 [com.example.rabittmqdemo.mq.demoJob#execute]-[22]-[Thread-46] XXL-JOB, Hello World.
+2021-01-08 16:34:18 [com.example.rabittmqdemo.mq.demoJob#execute]-[26]-[Thread-46] beat at:0
+2021-01-08 16:34:20 [com.example.rabittmqdemo.mq.demoJob#execute]-[26]-[Thread-46] beat at:1
+2021-01-08 16:34:22 [com.example.rabittmqdemo.mq.demoJob#execute]-[26]-[Thread-46] beat at:2
+2021-01-08 16:34:24 [com.example.rabittmqdemo.mq.demoJob#execute]-[26]-[Thread-46] beat at:3
+2021-01-08 16:34:26 [com.example.rabittmqdemo.mq.demoJob#execute]-[26]-[Thread-46] beat at:4
+2021-01-08 16:34:28 [com.xxl.job.core.thread.JobThread#run]-[164]-[Thread-46] <br>----------- xxl-job job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=200, msg=null, content=null]
+2021-01-08 16:34:28 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[190]-[xxl-job, executor TriggerCallbackThread] <br>----------- xxl-job job callback finish.

@@ -1,0 +1,5 @@
+2021-01-08 16:42:22 [com.xxl.job.core.thread.JobThread#run]-[124]-[Thread-42] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2021-01-08 16:42:22 [com.example.rabittmqdemo.mq.MessageReSendJob#execute]-[67]-[Thread-42] 开始扫描需要进行重试投递的消息
+2021-01-08 16:42:51 [com.example.rabittmqdemo.mq.MessageReSendJob#execute]-[70]-[Thread-42] 扫描需要进行重试投递的消息任务结束，耗时[29221]ms
+2021-01-08 16:42:51 [com.xxl.job.core.thread.JobThread#run]-[164]-[Thread-42] <br>----------- xxl-job job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=200, msg=null, content=null]
+2021-01-08 16:42:51 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[190]-[xxl-job, executor TriggerCallbackThread] <br>----------- xxl-job job callback finish.
